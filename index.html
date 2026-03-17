@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M. Yuvaraj - Data Analyst Portfolio</title>
+<meta name="description" content="Data Analyst with 5 years experience in Power BI, Tableau, SQL, Python">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #0a1628;
+  color: #f0f6ff;
+  line-height: 1.6;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(10,22,40,0.95);
+  backdrop-filter: blur(10px);
+  padding: 1rem 2rem;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0,229,184,0.12);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 6rem 2rem;
+}
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: #00e5b8;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #7a93b0;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+.section {
+  padding: 4rem 2rem;
+}
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #00e5b8;
+}
+.skills-grid, .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.card {
+  background: rgba(17,34,64,0.8);
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0,229,184,0.2);
+}
+.card:hover {
+  border-color: #00e5b8;
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+.card h3 {
+  color: #00e5b8;
+  margin-bottom: 1rem;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(17,34,64,0.5);
+  border-radius: 6px;
+}
+.contact-item a {
+  color: #00e5b8;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(17,34,64,0.8);
+  border-top: 1px solid rgba(0,229,184,0.2);
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="font-weight: 700; color: #00e5b8;">M. Yuvaraj</div>
+    <div style="display: flex; gap: 2rem;">
+      <a href="#about" style="color: #7a93b0; text-decoration: none;">About</a>
+      <a href="#skills" style="color: #7a93b0; text-decoration: none;">Skills</a>
+      <a href="#experience" style="color: #7a93b0; text-decoration: none;">Experience</a>
+      <a href="#projects" style="color: #7a93b0; text-decoration: none;">Projects</a>
+      <a href="#contact" style="color: #7a93b0; text-decoration: none;">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero container">
+  <div>
+    <h1>M. Yuvaraj</h1>
+    <p style="font-size: 1.5rem; margin-bottom: 1rem;">Data Analyst</p>
+    <p>Experienced Data Analyst with around 5 years of expertise in transforming raw data into strategic insights. Proficient in SQL, Python, Power BI, Tableau, and Excel, delivering data-driven solutions that enhance efficiency and support decision-making.</p>
+    <div style="margin-top: 2rem; display: flex; gap: 3rem;">
+      <div>
+        <div style="font-size: 2.5rem; font-weight: 700; color: #00e5b8;">5+</div>
+        <div style="color: #7a93b0; font-size: 0.9rem;">Years Experience</div>
+      </div>
+      <div>
+        <div style="font-size: 2.5rem; font-weight: 700; color: #00e5b8;">100+</div>
+        <div style="color: #7a93b0; font-size: 0.9rem;">Dashboards Built</div>
+      </div>
+      <div>
+        <div style="font-size: 2.5rem; font-weight: 700; color: #00e5b8;">10+</div>
+        <div style="color: #7a93b0; font-size: 0.9rem;">Tools Mastered</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section container">
+  <h2 class="section-title">About Me</h2>
+  <p style="color: #7a93b0; max-width: 800px;">I am a highly passionate Data Analyst who thrives on seeking new challenges. With a B.E in Computer Science Engineering from Ganadipathy Tulsi's Engineering College (2013-2017), I specialize in healthcare and e-commerce analytics, claims data analysis, KPI reporting, and executive dashboards.</p>
+</section>
+
+<section id="skills" class="section container">
+  <h2 class="section-title">Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="card">
+      <h3>📊 Power BI</h3>
+      <p style="color: #7a93b0;">DAX, Power Query, Dataflows, HIPAA reporting</p>
+    </div>
+    <div class="card">
+      <h3>📈 Tableau</h3>
+      <p style="color: #7a93b0;">LOD expressions, Tableau Prep, calculated fields</p>
+    </div>
+    <div class="card">
+      <h3>🗄️ MySQL</h3>
+      <p style="color: #7a93b0;">Joins, Subqueries, CTEs, data extraction</p>
+    </div>
+    <div class="card">
+      <h3>🐍 Python</h3>
+      <p style="color: #7a93b0;">Pandas, NumPy, Matplotlib, Seaborn</p>
+    </div>
+    <div class="card">
+      <h3>📑 Excel</h3>
+      <p style="color: #7a93b0;">Pivot Tables, VLOOKUP, Advanced Analytics</p>
+    </div>
+    <div class="card">
+      <h3>📊 Statistics</h3>
+      <p style="color: #7a93b0;">Hypothesis Testing, Regression Analysis</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section container">
+  <h2 class="section-title">Professional Experience</h2>
+  
+  <div style="margin-bottom: 3rem;">
+    <h3 style="color: #00e5b8; font-size: 1.5rem; margin-bottom: 0.5rem;">EBOT Technosoft</h3>
+    <p style="color: #7a93b0; margin-bottom: 1rem;">Data Analyst • 2021 - 2026</p>
+    <ul style="color: #7a93b0; list-style-position: inside; line-height: 1.8;">
+      <li>Designed end-to-end Power BI solutions integrating claims, provider, retail, and member data</li>
+      <li>Implemented DAX measures for KPI tracking and executive reporting</li>
+      <li>Analyzed medical and pharmacy claims data to identify fraud patterns</li>
+      <li>Ensured HIPAA compliance and CMS reporting standards</li>
+      <li>Conducted statistical analysis to evaluate healthcare outcomes</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3 style="color: #00e5b8; font-size: 1.5rem; margin-bottom: 0.5rem;">Burst Digital</h3>
+    <p style="color: #7a93b0; margin-bottom: 1rem;">Data Analyst • E-Commerce Analytics</p>
+    <ul style="color: #7a93b0; list-style-position: inside; line-height: 1.8;">
+      <li>Developed Tableau dashboards integrating retail and claims systems</li>
+      <li>Created LOD expressions and calculated fields for advanced analytics</li>
+      <li>Built KPI dashboards for turnaround time and inventory tracking</li>
+      <li>Supported marketing and supply chain optimization using insights</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects" class="section container">
+  <h2 class="section-title">Featured Projects</h2>
+  <div class="projects-grid">
+    <div class="card">
+      <h3>🏥 iMobiSoft - Digital Health System</h3>
+      <p style="color: #7a93b0; margin-bottom: 1rem;">Advanced healthcare analytics platform designed to modernize care delivery and reduce operational inefficiencies.</p>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <span style="background: rgba(0,229,184,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem; color: #00e5b8;">Power BI</span>
+        <span style="background: rgba(0,229,184,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem; color: #00e5b8;">DAX</span>
+        <span style="background: rgba(0,229,184,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem; color: #00e5b8;">SQL</span>
+        <span style="background: rgba(0,229,184,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem; color: #00e5b8;">HIPAA</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>🛒 Burst Digital - E-Commerce Analytics</h3>
+      <p style="color: #7a93b0; margin-bottom: 1rem;">Analytics solution delivering insights for product performance, inventory optimization, and customer engagement.</p>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <span style="background: rgba(0,229,184,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem; color: #00e5b8;">Tableau</span>
+        <span style="background: rgba(0,229,184,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem; color: #00e5b8;">LOD</span>
+        <span style="background: rgba(0,229,184,0.1); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem; color: #00e5b8;">Python</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section container">
+  <h2 class="section-title">Contact</h2>
+  <div class="contact-info">
+    <div class="contact-item">
+      <span>📱</span>
+      <div>
+        <div style="font-size: 0.85rem; color: #7a93b0;">Phone</div>
+        <a href="tel:9342131036">9342131036</a>
+      </div>
+    </div>
+    <div class="contact-item">
+      <span>📧</span>
+      <div>
+        <div style="font-size: 0.85rem; color: #7a93b0;">Email</div>
+        <a href="mailto:yuvarajkmurugan@gmail.com">yuvarajkmurugan@gmail.com</a>
+      </div>
+    </div>
+    <div class="contact-item">
+      <span>📍</span>
+      <div>
+        <div style="font-size: 0.85rem; color: #7a93b0;">Location</div>
+        <div style="color: #f0f6ff;">Chennai, Tamil Nadu, India</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <span>💼</span>
+      <div>
+        <div style="font-size: 0.85rem; color: #7a93b0;">LinkedIn</div>
+        <a href="https://linkedin.com/in/yuvaraj-murugan" target="_blank">linkedin.com/in/yuvaraj-murugan</a>
+      </div>
+    </div>
+    <div class="contact-item">
+      <span>🐙</span>
+      <div>
+        <div style="font-size: 0.85rem; color: #7a93b0;">GitHub</div>
+        <a href="https://github.com/yuvaraj-murugan" target="_blank">github.com/yuvaraj-murugan</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p style="color: #7a93b0;">© 2026 M. Yuvaraj | Data Analyst Portfolio</p>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if(target) {
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
